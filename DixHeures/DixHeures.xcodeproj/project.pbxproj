@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6196AA21E5DDA77003168FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6196AA11E5DDA77003168FE /* AppDelegate.swift */; };
+		C6196AA71E5DDA77003168FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6196AA51E5DDA77003168FE /* Main.storyboard */; };
+		C6196AA91E5DDA78003168FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6196AA81E5DDA78003168FE /* Assets.xcassets */; };
+		C6196AAC1E5DDA78003168FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6196AAA1E5DDA78003168FE /* LaunchScreen.storyboard */; };
+		C6196AB51E5DDACF003168FE /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6196AB41E5DDACF003168FE /* LoadViewController.swift */; };
+		C65446D81E60496800626D74 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65446D61E60496800626D74 /* TrackCell.swift */; };
+		C65446D91E60496800626D74 /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C65446D71E60496800626D74 /* TrackCell.xib */; };
+		C65446E01E608F9000626D74 /* DeezerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65446DB1E608F9000626D74 /* DeezerAPI.swift */; };
+		C65446E11E608F9000626D74 /* httpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65446DC1E608F9000626D74 /* httpClient.swift */; };
+		C65446E21E608F9000626D74 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65446DD1E608F9000626D74 /* Playlist.swift */; };
+		C65446E31E608F9000626D74 /* PlaylistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65446DE1E608F9000626D74 /* PlaylistManager.swift */; };
+		C65446E41E608F9000626D74 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65446DF1E608F9000626D74 /* Track.swift */; };
+		C6C13F3D1E5F308600A1A400 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C13F3C1E5F308600A1A400 /* CollectionViewController.swift */; };
+		C6C13F3F1E5F30BD00A1A400 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C13F3E1E5F30BD00A1A400 /* TableViewController.swift */; };
+		C6C13F411E5F30D500A1A400 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C13F401E5F30D500A1A400 /* AlbumViewController.swift */; };
+		C6C13F441E5F354E00A1A400 /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C13F421E5F354E00A1A400 /* PlaylistCell.swift */; };
+		C6C13F451E5F354E00A1A400 /* PlaylistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6C13F431E5F354E00A1A400 /* PlaylistCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6196A9E1E5DDA77003168FE /* DixHeures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DixHeures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6196AA11E5DDA77003168FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6196AA61E5DDA77003168FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6196AA81E5DDA78003168FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6196AAB1E5DDA78003168FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6196AAD1E5DDA78003168FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6196AB41E5DDACF003168FE /* LoadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
+		C65446D61E60496800626D74 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		C65446D71E60496800626D74 /* TrackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
+		C65446DB1E608F9000626D74 /* DeezerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeezerAPI.swift; sourceTree = "<group>"; };
+		C65446DC1E608F9000626D74 /* httpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = httpClient.swift; sourceTree = "<group>"; };
+		C65446DD1E608F9000626D74 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		C65446DE1E608F9000626D74 /* PlaylistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistManager.swift; sourceTree = "<group>"; };
+		C65446DF1E608F9000626D74 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		C6C13F3C1E5F308600A1A400 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		C6C13F3E1E5F30BD00A1A400 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C6C13F401E5F30D500A1A400 /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		C6C13F421E5F354E00A1A400 /* PlaylistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
+		C6C13F431E5F354E00A1A400 /* PlaylistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaylistCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6196A9B1E5DDA77003168FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6196A951E5DDA77003168FE = {
+			isa = PBXGroup;
+			children = (
+				C6196AA01E5DDA77003168FE /* DixHeures */,
+				C6196A9F1E5DDA77003168FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6196A9F1E5DDA77003168FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6196A9E1E5DDA77003168FE /* DixHeures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6196AA01E5DDA77003168FE /* DixHeures */ = {
+			isa = PBXGroup;
+			children = (
+				C6196AB81E5DDB58003168FE /* Controller */,
+				C6C13F4A1E5F356C00A1A400 /* View */,
+				C6196AB31E5DDA9D003168FE /* Supporting Files */,
+				C65446DA1E608F9000626D74 /* Sources */,
+				C6196AA51E5DDA77003168FE /* Main.storyboard */,
+			);
+			path = DixHeures;
+			sourceTree = "<group>";
+		};
+		C6196AB31E5DDA9D003168FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6196AA11E5DDA77003168FE /* AppDelegate.swift */,
+				C6196AA81E5DDA78003168FE /* Assets.xcassets */,
+				C6196AAA1E5DDA78003168FE /* LaunchScreen.storyboard */,
+				C6196AAD1E5DDA78003168FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6196AB81E5DDB58003168FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C6196AB41E5DDACF003168FE /* LoadViewController.swift */,
+				C6C13F3C1E5F308600A1A400 /* CollectionViewController.swift */,
+				C6C13F3E1E5F30BD00A1A400 /* TableViewController.swift */,
+				C6C13F401E5F30D500A1A400 /* AlbumViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C65446DA1E608F9000626D74 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C65446DB1E608F9000626D74 /* DeezerAPI.swift */,
+				C65446DC1E608F9000626D74 /* httpClient.swift */,
+				C65446DD1E608F9000626D74 /* Playlist.swift */,
+				C65446DE1E608F9000626D74 /* PlaylistManager.swift */,
+				C65446DF1E608F9000626D74 /* Track.swift */,
+			);
+			name = Sources;
+			path = MyPlayground.playground/Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		C6C13F4A1E5F356C00A1A400 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6C13F421E5F354E00A1A400 /* PlaylistCell.swift */,
+				C6C13F431E5F354E00A1A400 /* PlaylistCell.xib */,
+				C65446D61E60496800626D74 /* TrackCell.swift */,
+				C65446D71E60496800626D74 /* TrackCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6196A9D1E5DDA77003168FE /* DixHeures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6196AB01E5DDA78003168FE /* Build configuration list for PBXNativeTarget "DixHeures" */;
+			buildPhases = (
+				C6196A9A1E5DDA77003168FE /* Sources */,
+				C6196A9B1E5DDA77003168FE /* Frameworks */,
+				C6196A9C1E5DDA77003168FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DixHeures;
+			productName = DixHeures;
+			productReference = C6196A9E1E5DDA77003168FE /* DixHeures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6196A961E5DDA77003168FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luc CASIMIR";
+				TargetAttributes = {
+					C6196A9D1E5DDA77003168FE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C6196A991E5DDA77003168FE /* Build configuration list for PBXProject "DixHeures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6196A951E5DDA77003168FE;
+			productRefGroup = C6196A9F1E5DDA77003168FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6196A9D1E5DDA77003168FE /* DixHeures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6196A9C1E5DDA77003168FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6196AAC1E5DDA78003168FE /* LaunchScreen.storyboard in Resources */,
+				C65446D91E60496800626D74 /* TrackCell.xib in Resources */,
+				C6196AA91E5DDA78003168FE /* Assets.xcassets in Resources */,
+				C6196AA71E5DDA77003168FE /* Main.storyboard in Resources */,
+				C6C13F451E5F354E00A1A400 /* PlaylistCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6196A9A1E5DDA77003168FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6196AB51E5DDACF003168FE /* LoadViewController.swift in Sources */,
+				C6C13F3D1E5F308600A1A400 /* CollectionViewController.swift in Sources */,
+				C6C13F441E5F354E00A1A400 /* PlaylistCell.swift in Sources */,
+				C65446E01E608F9000626D74 /* DeezerAPI.swift in Sources */,
+				C6196AA21E5DDA77003168FE /* AppDelegate.swift in Sources */,
+				C65446E31E608F9000626D74 /* PlaylistManager.swift in Sources */,
+				C6C13F411E5F30D500A1A400 /* AlbumViewController.swift in Sources */,
+				C65446E11E608F9000626D74 /* httpClient.swift in Sources */,
+				C6C13F3F1E5F30BD00A1A400 /* TableViewController.swift in Sources */,
+				C65446D81E60496800626D74 /* TrackCell.swift in Sources */,
+				C65446E21E608F9000626D74 /* Playlist.swift in Sources */,
+				C65446E41E608F9000626D74 /* Track.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6196AA51E5DDA77003168FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6196AA61E5DDA77003168FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6196AAA1E5DDA78003168FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6196AAB1E5DDA78003168FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6196AAE1E5DDA78003168FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6196AAF1E5DDA78003168FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6196AB11E5DDA78003168FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DixHeures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.DixHeures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C6196AB21E5DDA78003168FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DixHeures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.DixHeures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6196A991E5DDA77003168FE /* Build configuration list for PBXProject "DixHeures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6196AAE1E5DDA78003168FE /* Debug */,
+				C6196AAF1E5DDA78003168FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6196AB01E5DDA78003168FE /* Build configuration list for PBXNativeTarget "DixHeures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6196AB11E5DDA78003168FE /* Debug */,
+				C6196AB21E5DDA78003168FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6196A961E5DDA77003168FE /* Project object */;
+}
